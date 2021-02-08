@@ -1,0 +1,90 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 36px;
+  z-index: 100;
+
+  transition: all 500ms ease-in;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-black {
+  background-color: #111;
+}
+.nav-logo {
+  position: fixed;
+  left: 0;
+  width: 80px;
+  object-fit: contain;
+  padding-left: 18px;
+  cursor: pointer;
+}
+.nav-avatar {
+  position: fixed;
+  right: 25px;
+  top: 8px;
+  width: 32px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.nav-search-waper {
+  position: relative;
+  left: 25%;
+  top: 0px;
+  width: 40vw;
+}
+.nav-search,.nav-search-waper button {
+  color: rgb(83, 117, 112);
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 8px 24px;
+  background-image: linear-gradient(160deg,rgba(0,0,0,0.2),rgba(0,0,3,0.44),rgba(0,0,2,0.1));
+}
+.nav-search {
+  width: 70%;
+}
+.nav-search-waper button {
+  position: relative;
+  left: -33px;
+  top: 4px;
+}
+.nav-search-waper button:hover {
+  color: #111;
+  background: #888;
+}
+.nav-nav-container {
+  color: rgba(255, 255, 255, 0.658);
+  position: absolute;
+  display: flex;
+  width: 20%;
+  top: 2px;
+  right: 10%;
+  justify-content: space-between;
+  padding: 2px;
+}
+.nav-nav-container h3, .nav-nav-container p {
+ background: rgba(0, 0, 0, 0.397); 
+ padding: 5px;
+ border-radius: 8px 16px;
+ transition: all 300ms ease;
+ cursor: pointer;
+}
+.nav-nav-container p a{
+  text-decoration: none;
+   color: rgba(255, 255, 255, 0.658);
+}
+.nav-nav-container h3 {
+  margin-left: -90px;
+}
+
+.nav-nav-container h3:hover, .nav-nav-container p:hover {
+  background-image: linear-gradient(160deg,rgba(0,0,0,0.2),rgba(0,0,3,0.44),rgba(0,0,2,0.1));
+  color: beige;
+  border-radius: 10px 20px;
+}
+
+

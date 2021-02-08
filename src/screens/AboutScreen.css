@@ -1,0 +1,32 @@
+.aboutscreen {
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://www.hdwallpapers.in/download/watchmen_smiley-1280x720.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.aboutscreen::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom left,
+    #b1b9be,
+    #441c13,
+    red,
+    red,
+    red
+  );
+  opacity: 0.4;
+}
